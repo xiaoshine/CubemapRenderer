@@ -1,12 +1,12 @@
-/*************************************************************************
- *  Copyright (C), 2017-2018, Mogoson Tech. Co., Ltd.
+﻿/*************************************************************************
+ *  Copyright © 2017-2018 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  CubemapRenderer.cs
  *  Description  :  Render a scene into a static Cubemap asset.
  *------------------------------------------------------------------------
  *  Author       :  Mogoson
  *  Version      :  0.1.0
- *  Date         :  8/31/2017
+ *  Date         :  3/7/2018
  *  Description  :  Initial development version.
  *************************************************************************/
 
@@ -17,7 +17,7 @@ namespace Developer.CubemapRenderer
 {
     public class CubemapRenderer : ScriptableWizard
     {
-        #region Property and Field
+        #region Field and Property
         [Tooltip("Source camera to render Cubemap.")]
         public Camera renderCamera;
 
