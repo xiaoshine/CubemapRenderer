@@ -36,5 +36,5 @@
     https://github.com/mogoson/CubemapRenderer.
 --------------------------------------------------------------------------
   [Contact]
-    If you have any questions, feel free to contact me at mogoson@qq.com.
+    If you have any questions, feel free to contact me at mogoson@outlook.com.
 --------------------------------------------------------------------------
