@@ -46,9 +46,13 @@ namespace Mogoson.CubemapRenderer
         private void OnWizardUpdate()
         {
             if (renderCamera && faceSize > 0)
+            {
                 isValid = true;
+            }
             else
+            {
                 isValid = false;
+            }
         }
 
         private void OnWizardCreate()
@@ -60,7 +64,9 @@ namespace Mogoson.CubemapRenderer
                 "Enter a file name to save the new render cubemap.");
 
             if (newCubemapPath == string.Empty)
+            {
                 return;
+            }
 
             var newRenderCubemap = new Cubemap(faceSize, textureFormat, mipmap);
             renderCamera.RenderToCubemap(newRenderCubemap);
