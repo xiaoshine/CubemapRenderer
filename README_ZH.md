@@ -11,7 +11,7 @@
 
 ## 环境
 - Unity 5.0 或更高版本。
-- .Net Framework 3.0 或更高版本。
+- .Net Framework 3.5 或更高版本。
 
 ## 条件
 - Unity提供ScriptableWizard类快速创建简易扩展编辑器窗口。
@@ -20,9 +20,6 @@
 ## 方案
 - 编写扩展编辑器窗口，指定目标渲染摄像机（渲染细节调节摄像机参数即可）。
 - 选择保存路径，输入文件名，渲染场景到Cubemap文件。
-
-## 实现
-- CubemapRenderer：绘制扩展编辑器窗口，渲染场景到Cubemap中。
 
 ## 预览
 - Cubemap Renderer

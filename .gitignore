@@ -6,3 +6,6 @@
 *.csproj
 *.unityproj
 *.sln
+/.vs
+/CodeProject/.vs
+/CodeProject/CubemapRenderer/bin

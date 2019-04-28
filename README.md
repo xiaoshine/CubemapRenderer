@@ -9,7 +9,7 @@
 
 ## Environment
 - Unity 5.0 or above.
-- .Net Framework 3.0 or above.
+- .Net Framework 3.5 or above.
 
 ## Prerequisite
 - Unity provide the ScriptableWizard class to quickly create extend editor window.
@@ -18,9 +18,6 @@
 ## Scheme
 - Write extend editor code, select source camera and config the parameters for create Cubemap.
 - Select path and input file name to save the render Cubemap.
-
-## Achieve
-- CubemapRenderer : Draw extend editor window and render scene into a static Cubemap asset.
 
 ## Preview
 - Cubemap Renderer
