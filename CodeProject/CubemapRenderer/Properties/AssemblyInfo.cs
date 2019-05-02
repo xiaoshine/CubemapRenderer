@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("CubemapRenderer")]
 [assembly: AssemblyDescription("Unity Cubemap renderer")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Mogoson")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("CubemapRenderer")]
 [assembly: AssemblyCopyright("Copyright ©  2017-2019 Mogoson")]
 [assembly: AssemblyTrademark("")]
