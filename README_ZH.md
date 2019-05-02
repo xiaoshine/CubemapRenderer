@@ -24,7 +24,7 @@
 ## 预览
 - Cubemap Renderer
 
-![Cubemap Renderer](./Attachments/README_Image/CubemapRenderer.gif)
+![Cubemap Renderer](./Attachment/README_Image/CubemapRenderer.gif)
 
 ## 联系
 - 如果你有任何问题或者建议，欢迎通过mogoson@outlook.com联系我。
