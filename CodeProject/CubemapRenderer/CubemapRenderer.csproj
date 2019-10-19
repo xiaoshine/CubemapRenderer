@@ -52,8 +52,16 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>set TargetDir="$(SolutionDir)..\UnityProject\Assets\Editor\$(TargetName)"
-if not exist %25TargetDir%25 md %25TargetDir%25
-copy "$(TargetFileName)" %25TargetDir%25</PostBuildEvent>
+    <PostBuildEvent>set targetDir="$(SolutionDir)..\UnityProject\Assets\Editor\$(TargetName)"
+if exist %25targetDir%25\$(TargetFileName) (
+    if $(ConfigurationName)==Debug (
+        copy "$(TargetName).pdb" %25targetDir%25
+    ) else (
+         if exist "%25targetDir%25\$(TargetName).pdb" (
+            del "%25targetDir%25\$(TargetName).pdb"
+         )
+    )
+    copy "$(TargetFileName)" %25targetDir%25
+)</PostBuildEvent>
   </PropertyGroup>
 </Project>
