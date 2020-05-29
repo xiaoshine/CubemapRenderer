@@ -1,5 +1,5 @@
 ﻿==========================================================================
-  Copyright © 2017-2019 Mogoson. All rights reserved.
+  Copyright (c) 2017-2019 Mogoson. All rights reserved.
   Name: CubemapRenderer
   Author: Mogoson   Version: 1.0.0   Date: 4/28/2019
 ==========================================================================
@@ -13,10 +13,6 @@
   [Environment]
      Unity 5.0 or above.
     .Net Framework 3.5 or above.
---------------------------------------------------------------------------
-  [Achieve]
-    CubemapRenderer : Draw extend editor window and render scene into a
-    static Cubemap asset.
 --------------------------------------------------------------------------
   [Usage]
     Find the menu item "Tool/Cubemap Renderer" in Unity editor menu bar

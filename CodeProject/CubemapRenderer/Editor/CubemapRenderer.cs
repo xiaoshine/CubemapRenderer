@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2017-2018 Mogoson. All rights reserved.
+ *  Copyright (c) 2017-2018 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  CubemapRenderer.cs
  *  Description  :  Render a scene into a static Cubemap asset.
@@ -19,13 +19,13 @@ namespace MGS.CubemapRenderer
     {
         #region Field and Property
         [Tooltip("Source camera to render Cubemap.")]
-        public Camera renderCamera;
+        public Camera camera;
 
         [Tooltip("Width and height of a cube face in pixels.")]
-        public int faceSize = 128;
+        public int size = 128;
 
         [Tooltip("Pixel data format to be used for the Cubemap.")]
-        public TextureFormat textureFormat = TextureFormat.ARGB32;
+        public TextureFormat format = TextureFormat.ARGB32;
 
         [Tooltip("Should mipmaps be created?")]
         public bool mipmap = false;
@@ -40,12 +40,12 @@ namespace MGS.CubemapRenderer
 
         private void OnEnable()
         {
-            renderCamera = Camera.main;
+            camera = Camera.main;
         }
 
         private void OnWizardUpdate()
         {
-            if (renderCamera && faceSize > 0)
+            if (camera && size > 0)
             {
                 isValid = true;
             }
@@ -68,8 +68,8 @@ namespace MGS.CubemapRenderer
                 return;
             }
 
-            var newRenderCubemap = new Cubemap(faceSize, textureFormat, mipmap);
-            renderCamera.RenderToCubemap(newRenderCubemap);
+            var newRenderCubemap = new Cubemap(size, format, mipmap);
+            camera.RenderToCubemap(newRenderCubemap);
 
             AssetDatabase.CreateAsset(newRenderCubemap, newCubemapPath);
             AssetDatabase.Refresh();

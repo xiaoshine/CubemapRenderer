@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("CubemapRenderer")]
-[assembly: AssemblyCopyright("Copyright ©  2017-2019 Mogoson")]
+[assembly: AssemblyCopyright("Copyright (c)  2017-2019 Mogoson")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
