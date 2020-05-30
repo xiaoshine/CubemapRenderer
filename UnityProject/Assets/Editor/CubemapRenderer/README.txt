@@ -1,5 +1,5 @@
 ﻿==========================================================================
-  Copyright (c) 2017-2019 Mogoson. All rights reserved.
+  Copyright © 2017-2019 Mogoson. All rights reserved.
   Name: CubemapRenderer
   Author: Mogoson   Version: 1.0.0   Date: 4/28/2019
 ==========================================================================

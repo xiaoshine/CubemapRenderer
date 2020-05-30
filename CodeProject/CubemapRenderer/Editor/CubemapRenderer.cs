@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright (c) 2017-2018 Mogoson. All rights reserved.
+ *  Copyright © 2017-2018 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  CubemapRenderer.cs
  *  Description  :  Render a scene into a static Cubemap asset.
